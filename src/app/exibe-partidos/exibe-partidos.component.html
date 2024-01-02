@@ -1,1 +1,9 @@
-<p>exibe-partidos works!</p>
+
+
+<div *ngFor="let partido of partidos">
+    <p>Nome: {{ partido.nome }}</p>
+    <p>Sigla: {{ partido.sigla }}</p>
+    <p>URI: {{ partido.uri }}</p>
+    
+  </div>
+  

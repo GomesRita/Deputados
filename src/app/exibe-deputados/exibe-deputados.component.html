@@ -1,12 +1,10 @@
-<body>
-    <table>
-        <tr *ngFor="let dep of deputados" >
-            <td><img [src]="dep.urlFoto"></td>
-            <td >Id: {{dep.id}}</td>
-            <td >Nome: {{dep.nome}}</td>
-            <td >Email: {{dep.email}}</td>
-            <td >Partido: {{dep.siglaPartido}}</td>
-            <td >UF: {{dep.siglaUf}}</td>
-        </tr>
-    </table>
-</body>
+
+
+<div *ngFor="let dep of deputados">
+    <img [src]="dep.urlFoto" alt="{{ dep.nome }}" class="deputado-foto">
+    <div>
+      <p class="deputado-nome">{{ dep.nome }}</p>
+      <p class="deputado-partido">{{ dep.siglaPartido }}</p>
+    </div>
+  </div>
+  

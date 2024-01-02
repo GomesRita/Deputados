@@ -1,0 +1,17 @@
+/* exibe-deputados-componnentes.css */
+
+.deputado-foto {
+    width: 50px; /* Ajuste o tamanho conforme necessário */
+    height: 50px; /* Ajuste o tamanho conforme necessário */
+    border-radius: 50%; /* Para tornar a imagem redonda, opcional */
+    margin-right: 10px; /* Adapte a margem conforme necessário */
+  }
+  
+  .deputado-nome {
+    font-weight: bold;
+  }
+  
+  .deputado-partido {
+    color: #888; /* Cor opcional para o partido */
+  }
+  
