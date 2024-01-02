@@ -1,0 +1,33 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    text-align: center;
+}
+.logo{
+    text-align: center;
+    background-color: #2f7958;
+}
+
+.logo img{
+    padding: 10px;
+    margin: 15px;
+    width: 226px;
+    height: 83px;
+    border-color: aliceblue;
+}
+.componentes{
+    text-align: center;
+    background-color: #17583b;
+    padding: 5px;
+    
+}
+
+.componentes button{
+    margin: 10px;
+}
+
+body table{
+    margin: auto;
+}

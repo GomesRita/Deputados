@@ -1,17 +1,24 @@
-/* exibe-deputados-componnentes.css */
+tr{
+    width: 400px;
+    padding-bottom: 5px;
+    text-align: center;
+    
 
-.deputado-foto {
-    width: 50px; /* Ajuste o tamanho conforme necessário */
-    height: 50px; /* Ajuste o tamanho conforme necessário */
-    border-radius: 50%; /* Para tornar a imagem redonda, opcional */
-    margin-right: 10px; /* Adapte a margem conforme necessário */
-  }
-  
-  .deputado-nome {
-    font-weight: bold;
-  }
-  
-  .deputado-partido {
-    color: #888; /* Cor opcional para o partido */
-  }
-  
+}
+table{
+    margin-left: 5%;
+    display: grid; grid-template-columns: repeat(5, 1fr);
+    flex-direction: row;
+}
+
+table td{
+    text-align: center;
+}
+.card{
+    width: 300px;
+}
+img{
+    width: 150px;
+    height: 200px;
+}
+
