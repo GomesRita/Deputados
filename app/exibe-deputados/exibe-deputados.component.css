@@ -1,0 +1,24 @@
+tr{
+    width: 400px;
+    padding-bottom: 5px;
+    text-align: center;
+    
+
+}
+table{
+    margin-left: 5%;
+    display: grid; grid-template-columns: repeat(5, 1fr);
+    flex-direction: row;
+}
+
+table td{
+    text-align: center;
+}
+.card{
+    width: 300px;
+}
+img{
+    width: 150px;
+    height: 200px;
+}
+

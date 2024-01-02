@@ -1,0 +1,19 @@
+<body>
+    <h1>Pesquisa de Deputados</h1>
+        <input type="text" #nome>
+
+        <input type="button" (click)="obterNome(nome.value)" value="Buscar"><input type="button" (click)="limparPesquisa()" value="Limpar Pesquisa">
+    <table>
+        <tr *ngIf="deputado"class="card">
+            <td class="card-img-top">
+                    <img class="img-thumbnail" [src]="deputado.urlFoto">
+            </td>
+            <td class="card-title"><h5>Nome:     {{deputado.nome}}</h5></td>
+            <td class="card-text">Id:       {{deputado.id}}</td>
+            <td class="card-text">Email:    {{deputado.email}}</td>
+            <td class="card-text">Partido:  {{deputado.siglaPartido}}</td>
+            <td class="card-text">UF:       {{deputado.siglaUf}}</td>
+        </tr>
+    </table>
+</body>
+

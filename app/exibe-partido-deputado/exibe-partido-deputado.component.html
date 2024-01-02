@@ -1,0 +1,14 @@
+<h1>Pesquisa de Partido</h1>
+
+<input type="text" #partd>
+
+<input type="button" (click)="exibirPartido(partd.value)" value="Buscar"><input type="button" (click)="limparPesquisa()" value="Limpar pesquisa">
+<table>
+    <tr *ngIf="partido" class="card">
+        <td class="card-title"><h4>{{partido.nome}}</h4></td>
+        <td class="card-text"><strong>ID: </strong> {{partido.id}}</td>
+        <td class="card-text"><strong>Sigla: </strong>{{partido.sigla}}</td>
+        <td class="card-text"><strong>URL: </strong>{{partido.uri}}</td>
+    </tr>
+</table>
+

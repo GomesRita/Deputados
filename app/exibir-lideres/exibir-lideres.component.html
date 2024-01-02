@@ -1,0 +1,11 @@
+<p>Obter Lideres</p>
+
+<input type="number" #id>
+
+<input type="button" (click)="exibirLider(id.valueAsNumber)" value="Buscar"><input type="button" (click)="limparPesquisa()" value="Limpar pesquisa">
+<table>
+    <tr *ngIf="lideres">
+        <td>Código Título: {{lideres.codTitulo}}</td>
+    </tr>
+</table>
+
